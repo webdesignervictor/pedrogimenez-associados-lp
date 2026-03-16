@@ -4,10 +4,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-navy: #0F172A;
-  --color-brand-gold: #D4A843;
-  --color-brand-light: #F8FAFC;
-  --color-brand-dark: #020617;
+  --color-brand-navy: #0E4D64;
+  --color-brand-gold: #06B6D4;
+  --color-brand-dark: #082F3A;
+  --color-brand-light: #F5F0EB;
+  --color-brand-cta: #16A34A;
   --font-sans: 'Inter', sans-serif;
   --font-serif: 'Playfair Display', serif;
 }
@@ -27,13 +28,13 @@
 
 @layer utilities {
   .glass {
-    background-color: rgb(255 255 255 / 0.7);
+    background-color: rgb(245 240 235 / 0.75);
     backdrop-filter: blur(12px);
-    border: 1px solid rgb(255 255 255 / 0.2);
+    border: 1px solid rgb(255 255 255 / 0.3);
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   }
   .glass-dark {
-    background-color: rgb(15 23 42 / 0.8);
+    background-color: rgb(14 77 100 / 0.8);
     backdrop-filter: blur(12px);
     border: 1px solid rgb(255 255 255 / 0.1);
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);

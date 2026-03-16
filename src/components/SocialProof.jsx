@@ -49,7 +49,7 @@ const SocialProof = () => {
                 Temos orgulho das nossas avaliações porque elas representam negócios salvos, angústias interrompidas e justiça sendo feita.
               </p>
               
-              <div className="flex items-center gap-4 p-5 bg-white rounded-2xl border border-slate-200 shadow-sm max-w-sm">
+              <div className="flex items-center gap-4 p-5 bg-[#FAF8F5] rounded-2xl border border-slate-200 shadow-sm max-w-sm">
                 <div className="w-14 h-14 bg-slate-100 rounded-full flex items-center justify-center shrink-0">
                   <svg viewBox="0 0 24 24" className="w-8 h-8 text-slate-700" fill="currentColor">
                     <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
@@ -83,7 +83,7 @@ const SocialProof = () => {
               {[...reviews, ...reviews].map((review, index) => (
                 <div
                   key={index}
-                  className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 w-[300px] shrink-0"
+                  className="bg-[#FAF8F5] p-6 rounded-2xl shadow-sm border border-slate-100 w-[300px] shrink-0"
                 >
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-10 h-10 bg-brand-navy rounded-full flex items-center justify-center text-brand-gold font-bold text-lg shrink-0">

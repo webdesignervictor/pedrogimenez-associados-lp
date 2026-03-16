@@ -29,7 +29,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="py-24 bg-white" id="faq">
+    <section className="py-24 bg-brand-light" id="faq">
       <div className="container mx-auto px-4 md:px-6 max-w-4xl">
         
         <div className="text-center mb-16">
@@ -62,7 +62,7 @@ const FAQ = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.3, delay: index * 0.1 }}
               className={`border rounded-2xl overflow-hidden transition-all duration-300 ${
-                openIndex === index ? 'border-brand-gold bg-brand-light shadow-md' : 'border-slate-200 bg-white hover:border-slate-300'
+                openIndex === index ? 'border-brand-gold bg-brand-light shadow-md' : 'border-slate-200 bg-[#FAF8F5] hover:border-slate-300'
               }`}
             >
               <button 
@@ -113,9 +113,9 @@ const FAQ = () => {
             href="https://wa.me/5511999999999" 
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 bg-brand-navy hover:bg-slate-800 text-white font-bold text-lg py-4 px-8 rounded-xl transition-all duration-300 transform hover:-translate-y-1"
+            className="inline-flex items-center justify-center gap-2 bg-brand-cta hover:bg-green-700 text-white font-bold text-lg py-4 px-8 rounded-xl transition-all duration-300 transform hover:-translate-y-1"
           >
-            <MessageCircle className="w-5 h-5 text-brand-gold" />
+            <MessageCircle className="w-5 h-5 text-white" />
             Tirar Dúvida no WhatsApp
           </a>
         </motion.div>

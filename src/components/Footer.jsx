@@ -26,7 +26,7 @@ const Footer = () => {
             href="https://wa.me/5511999999999?text=Quero%20recuperar%20minha%20conta."
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-3 bg-brand-gold hover:bg-yellow-500 text-brand-navy font-black text-xl py-5 px-10 rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(212,168,67,0.3)] hover:shadow-[0_0_35px_rgba(212,168,67,0.6)] transform hover:-translate-y-2 w-full sm:w-auto"
+            className="inline-flex items-center justify-center gap-3 bg-brand-cta hover:bg-green-700 text-white font-black text-xl py-5 px-10 rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(22,163,74,0.3)] hover:shadow-[0_0_35px_rgba(22,163,74,0.6)] transform hover:-translate-y-2 w-full sm:w-auto"
           >
             Falar com a Equipe Pedro Gimenez →
           </a>

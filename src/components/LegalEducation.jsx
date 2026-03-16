@@ -46,7 +46,7 @@ const LegalEducation = () => {
                 <Scale className="w-8 h-8 text-brand-gold" />
               </div>
               <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">
-                Você sabia que a <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-gold to-yellow-300">plataforma tem a obrigação</span> de proteger sua conta?
+                Você sabia que a <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">plataforma tem a obrigação</span> de proteger sua conta?
               </h2>
               <p className="text-slate-300 text-lg mb-8 font-light">
                 O suporte do Instagram/WhatsApp dirá que você precisa enviar um vídeo de selfie, e se não funcionar, dirão que não podem fazer nada. <strong>A Justiça diz o contrário e pune esse tipo de negligência.</strong>

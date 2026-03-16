@@ -71,7 +71,7 @@ const Timeline = () => {
                 
                 {/* Step Content */}
                 <div className={`w-full md:w-1/2 ${index % 2 === 0 ? 'md:text-right md:pr-12' : 'md:text-left md:pl-12'}`}>
-                  <div className={`p-8 bg-white rounded-2xl shadow-lg border border-slate-100 hover:border-brand-gold/30 transition-colors relative group
+                  <div className={`p-8 bg-[#FAF8F5] rounded-2xl shadow-lg border border-slate-100 hover:border-brand-gold/30 transition-colors relative group
                     ${index % 2 === 0 ? 'md:rounded-tr-none md:rounded-br-2xl' : 'md:rounded-tl-none md:rounded-bl-2xl'}
                   `}>
                     <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-transparent to-brand-gold/5 opacity-0 group-hover:opacity-100 transition-opacity rounded-br-2xl"></div>
@@ -82,7 +82,7 @@ const Timeline = () => {
                 </div>
 
                 {/* Step Connector Node */}
-                <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-14 h-14 rounded-full bg-brand-navy border-4 border-white items-center justify-center shadow-xl z-10 transition-transform hover:scale-110">
+                <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-14 h-14 rounded-full bg-brand-navy border-4 border-brand-light items-center justify-center shadow-xl z-10 transition-transform hover:scale-110">
                   <step.icon className="w-6 h-6 text-brand-gold" />
                 </div>
 
@@ -90,7 +90,7 @@ const Timeline = () => {
                 <div className="hidden md:block w-1/2"></div>
                 
                 {/* Mobile Icon (since the node is hidden on mobile) */}
-                <div className="md:hidden flex items-center justify-center self-start w-12 h-12 rounded-full bg-brand-navy text-brand-gold -mt-6 ml-4 relative z-10 shadow-lg border-2 border-white">
+                <div className="md:hidden flex items-center justify-center self-start w-12 h-12 rounded-full bg-brand-navy text-brand-gold -mt-6 ml-4 relative z-10 shadow-lg border-2 border-brand-light">
                    <step.icon className="w-5 h-5" />
                 </div>
               </motion.div>

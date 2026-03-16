@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-brand-light font-sans selection:bg-brand-gold/30 selection:text-brand-navy">
+    <div className="min-h-screen bg-brand-light font-sans selection:bg-brand-cta/20 selection:text-brand-navy">
       <Header />
       <main>
         <Hero />

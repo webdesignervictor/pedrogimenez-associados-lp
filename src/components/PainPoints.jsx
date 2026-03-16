@@ -23,7 +23,7 @@ const PainPoints = () => {
   ];
 
   return (
-    <section className="py-24 bg-white" id="problemas">
+    <section className="py-24 bg-brand-light" id="problemas">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           
@@ -81,7 +81,7 @@ const PainPoints = () => {
                     </h4>
                     <p className="text-slate-300 text-sm">A lei obriga as plataformas a devolverem seu acesso e indenizarem seus prejuízos.</p>
                   </div>
-                  <a href="https://wa.me/5511999999999" className="whitespace-nowrap bg-brand-gold hover:bg-yellow-500 text-brand-navy font-bold py-3 px-6 rounded-lg transition-colors w-full sm:w-auto text-center">
+                  <a href="https://wa.me/5511999999999" className="whitespace-nowrap bg-brand-cta hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors w-full sm:w-auto text-center">
                     Avaliar meu caso
                   </a>
                 </div>
@@ -99,13 +99,13 @@ const PainPoints = () => {
               className="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-slate-100 h-[600px] w-full max-w-md mx-auto"
             >
               {/* Fake Instagram Header */}
-              <div className="h-16 bg-white border-b border-slate-200 flex items-center px-4 justify-between">
+              <div className="h-16 bg-[#FAF8F5] border-b border-slate-200 flex items-center px-4 justify-between">
                 <div className="font-bold text-lg">SeuPerfil_Oficial</div>
                 <AlertCircle className="text-red-500" />
               </div>
               
               {/* Fake Fake Post */}
-              <div className="p-4 bg-white mb-2">
+              <div className="p-4 bg-[#FAF8F5] mb-2">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-10 h-10 bg-slate-200 rounded-full"></div>
                   <div>
@@ -126,7 +126,7 @@ const PainPoints = () => {
               
               {/* Overlay warning */}
               <div className="absolute inset-0 bg-red-900/40 backdrop-blur-sm flex items-center justify-center p-6">
-                <div className="bg-white rounded-2xl p-6 shadow-2xl max-w-sm w-full text-center border-t-4 border-red-500">
+                <div className="bg-[#FAF8F5] rounded-2xl p-6 shadow-2xl max-w-sm w-full text-center border-t-4 border-red-500">
                   <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                     <XCircle className="w-8 h-8 text-red-600" />
                   </div>
