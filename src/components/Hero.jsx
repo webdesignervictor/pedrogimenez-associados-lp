@@ -62,6 +62,61 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight leading-tight mb-6">
             Sua conta foi bloqueada e <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 animate-shimmer">ninguém resolve?</span>
           </h1>
+
+          {/* Mobile Card Visual (Only visible on small screens) */}
+          <div className="md:hidden flex justify-center mb-12 perspective-1000">
+            <motion.div 
+              animate={{ 
+                rotateY: [-5, 5, -5],
+                rotateX: [2, -2, 2]
+              }}
+              transition={{ 
+                duration: 6, 
+                repeat: Infinity, 
+                ease: "easeInOut" 
+              }}
+              className="relative w-full max-w-[280px]"
+              style={{ transformStyle: "preserve-3d" }}
+            >
+              <div 
+                style={{ transform: "translateZ(20px)" }}
+                className="glass-dark rounded-4xl p-3 border border-slate-700/50 shadow-xl"
+              >
+                <div className="bg-brand-dark rounded-3xl h-[350px] w-full overflow-hidden relative border border-slate-800">
+                  <img 
+                    src="/img-card-hero-pedrogimenez.png" 
+                    alt="Interface de Recuperação de Conta" 
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              
+              {/* Simplified mobile badges with 3D depth */}
+              <motion.div 
+                animate={{ y: [0, -5, 0] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                style={{ translateZ: "50px" }}
+                className="absolute -top-3 -right-3 glass rounded-xl p-2 flex items-center gap-2 shadow-lg z-20 scale-90"
+              >
+                <div className="bg-linear-to-br from-pink-500 to-orange-400 p-1.5 rounded-md">
+                  <Instagram className="w-4 h-4 text-white" />
+                </div>
+                <p className="text-slate-800 font-bold text-[10px] leading-tight">Instagram</p>
+              </motion.div>
+
+              <motion.div 
+                animate={{ y: [0, 5, 0] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+                style={{ translateZ: "70px" }}
+                className="absolute -bottom-5 -left-3 glass rounded-xl p-2 flex items-center gap-2 shadow-lg z-20 scale-90"
+              >
+                <div className="bg-linear-to-br from-green-400 to-green-600 p-1.5 rounded-md">
+                  <MessageCircle className="w-4 h-4 text-white" />
+                </div>
+                <p className="text-slate-800 font-bold text-[10px] leading-tight">WhatsApp</p>
+              </motion.div>
+            </motion.div>
+          </div>
           
           <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl mx-auto md:mx-0 font-light">
             Atuamos juridicamente na <strong className="font-semibold text-white">recuperação rápida de contas bloqueadas</strong>. Forçamos as plataformas na justiça a devolverem seu acesso e buscarem indenizações por danos de imagem.
@@ -84,9 +139,9 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Right Column (Visual) */}
+        {/* Right Column (Visual - Hidden on Mobile) */}
         <div 
-          className="w-full md:w-2/5 flex justify-center perspective-1000"
+          className="hidden md:flex w-full md:w-2/5 justify-center perspective-1000"
           onMouseMove={handleMouseMove}
           onMouseLeave={handleMouseLeave}
         >
