@@ -98,6 +98,27 @@ const Timeline = () => {
           </div>
         </div>
 
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="mt-16 text-center"
+        >
+          <div className="inline-block p-1 rounded-2xl bg-linear-to-r from-brand-gold/20 to-brand-cta/20 mb-6 font-medium text-brand-navy px-6 py-2 border border-brand-gold/10">
+            Tempo é fundamental para garantir a preservação das provas.
+          </div>
+          <br />
+          <a 
+            href="https://wa.me/5511999999999" 
+            className="inline-flex items-center justify-center gap-3 bg-brand-cta text-white font-bold text-xl py-5 px-12 rounded-2xl btn-premium-shimmer shadow-premium"
+          >
+            Começar Recuperação Agora
+          </a>
+          <p className="mt-4 text-slate-500 text-sm">
+            Análise inicial sem compromisso e Resposta imediata.
+          </p>
+        </motion.div>
       </div>
     </section>
   );

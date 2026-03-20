@@ -62,14 +62,50 @@
   .backface-hidden { backface-visibility: hidden; }
   .rotate-y-180 { transform: rotateY(180deg); }
 
-  @keyframes text-shimmer {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+  @keyframes shimmer-btn {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+
+  .btn-premium-shimmer {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--color-brand-cta) 0%, #10B981 100%);
+    box-shadow: 0 10px 25px -5px rgba(22, 163, 74, 0.4), 0 8px 10px -6px rgba(22, 163, 74, 0.3);
+    transition: all 0.3s ease;
+  }
+  .btn-premium-shimmer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
+    transform: translateX(-100%);
+    animation: shimmer-btn 2s infinite linear;
+  }
+  .btn-premium-shimmer:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 20px 30px -10px rgba(22, 163, 74, 0.5);
+    filter: brightness(1.1);
   }
 
   .animate-shimmer {
     background-size: 200% auto;
     animation: text-shimmer 4s ease-in-out infinite;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }

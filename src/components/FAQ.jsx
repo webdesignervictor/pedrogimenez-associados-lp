@@ -113,9 +113,9 @@ const FAQ = () => {
             href="https://wa.me/5511999999999" 
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 bg-brand-cta hover:bg-green-700 text-white font-bold text-lg py-4 px-8 rounded-xl transition-all duration-300 transform hover:-translate-y-1"
+            className="inline-flex items-center justify-center gap-3 bg-brand-cta text-white font-bold text-lg py-4 px-10 rounded-xl btn-premium-shimmer shadow-premium group"
           >
-            <MessageCircle className="w-5 h-5 text-white" />
+            <MessageCircle className="w-5 h-5 text-white group-hover:animate-bounce" />
             Tirar Dúvida no WhatsApp
           </a>
         </motion.div>

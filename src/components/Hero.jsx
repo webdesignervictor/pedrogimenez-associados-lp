@@ -60,7 +60,7 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight leading-tight mb-6">
-            Sua conta foi bloqueada e <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200 animate-shimmer">ninguém resolve?</span>
+            Sua conta foi bloqueada e <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-cyan-200 animate-shimmer">ninguém resolve?</span>
           </h1>
 
           {/* Mobile Card Visual (Only visible on small screens) */}
@@ -127,9 +127,9 @@ const Hero = () => {
               href={waLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto flex items-center justify-center gap-2 bg-brand-cta text-white font-bold text-lg py-4 px-8 rounded-xl btn-3d-premium"
+              className="w-full sm:w-auto flex items-center justify-center gap-3 bg-brand-cta text-white font-bold text-lg py-4 px-10 rounded-xl btn-premium-shimmer shadow-premium"
             >
-              <MessageCircle className="w-5 h-5" />
+              <MessageCircle className="w-5 h-5 group-hover:animate-bounce" />
               Solicitar Diagnóstico Gratuito
             </a>
             <span className="text-sm text-slate-400 font-medium flex items-center gap-1.5 mt-3 sm:mt-0">

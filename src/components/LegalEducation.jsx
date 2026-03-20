@@ -45,8 +45,8 @@ const LegalEducation = () => {
               <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mb-8 border border-white/20">
                 <Scale className="w-8 h-8 text-brand-gold" />
               </div>
-              <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">
-                Você sabia que a <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">plataforma tem a obrigação</span> de proteger sua conta?
+              <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight text-white">
+                Você sabia que a <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-cyan-200">plataforma tem a obrigação</span> de proteger sua conta?
               </h2>
               <p className="text-slate-300 text-lg mb-8 font-light">
                 O suporte do Instagram/WhatsApp dirá que você precisa enviar um vídeo de selfie, e se não funcionar, dirão que não podem fazer nada. <strong>A Justiça diz o contrário e pune esse tipo de negligência.</strong>
@@ -88,17 +88,15 @@ const LegalEducation = () => {
                whileInView={{ opacity: 1, y: 0 }}
                viewport={{ once: true }}
                transition={{ duration: 0.5, delay: 0.4 }}
-               className="mt-8 text-center"
+               className="mt-12 text-center"
             >
                <a 
                  href="https://wa.me/5511999999999" 
-                 className="inline-flex items-center gap-2 text-brand-gold hover:text-white transition-colors font-bold group"
+                 className="inline-flex items-center justify-center gap-3 bg-brand-cta text-white font-bold text-lg py-4 px-10 rounded-xl btn-premium-shimmer shadow-premium"
                >
-                 Entender se este é o seu caso legalmente 
-                 <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                 </svg>
+                 Entender Meus Direitos Agora
                </a>
+               <p className="mt-4 text-slate-500 text-xs">Ficou com dúvidas? Consulte um especialista legal.</p>
             </motion.div>
           </div>
 

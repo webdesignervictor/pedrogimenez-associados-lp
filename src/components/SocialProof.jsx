@@ -27,7 +27,7 @@ const SocialProof = () => {
   return (
     <section className="py-24 bg-brand-light relative overflow-hidden">
       {/* Decorative gradient */}
-      <div className="absolute top-0 right-0 w-3/4 h-1 bg-gradient-to-r from-transparent via-brand-gold to-transparent opacity-30"></div>
+      <div className="absolute top-0 right-0 w-3/4 h-1 bg-linear-to-r from-transparent via-brand-gold to-transparent opacity-30"></div>
       
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row gap-12 items-center mb-16">
@@ -108,6 +108,27 @@ const SocialProof = () => {
             </motion.div>
           </div>
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="mt-20 text-center"
+        >
+          <h3 className="text-xl font-bold text-brand-navy mb-6">
+            Quer ser o próximo a recuperar o que é seu?
+          </h3>
+          <a 
+            href="https://wa.me/5511999999999" 
+            className="inline-flex items-center justify-center gap-3 bg-brand-cta text-white font-bold text-xl py-5 px-12 rounded-2xl btn-premium-shimmer shadow-premium"
+          >
+            Falar com Especialista agora
+          </a>
+          <p className="mt-4 text-slate-500 text-sm">
+            Atendimento prioritário para casos urgentes.
+          </p>
+        </motion.div>
       </div>
     </section>
   );

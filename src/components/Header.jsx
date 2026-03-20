@@ -47,7 +47,7 @@ const Header = () => {
             href={waLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-brand-cta hover:bg-green-700 text-white font-bold py-2.5 px-6 rounded-lg transition-all duration-300 shadow-[0_0_15px_rgba(22,163,74,0.3)] hover:shadow-[0_0_25px_rgba(22,163,74,0.5)] transform hover:-translate-y-0.5"
+            className="bg-brand-cta text-white font-bold py-2.5 px-6 rounded-lg transition-all duration-300 btn-premium-shimmer shadow-premium"
           >
             Falar com Especialista
           </a>
@@ -74,7 +74,7 @@ const Header = () => {
               href={waLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-brand-cta text-white font-bold py-3 px-6 rounded-lg text-center mt-2"
+              className="bg-brand-cta text-white font-bold py-3 px-6 rounded-lg text-center mt-2 btn-premium-shimmer"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Falar com Especialista Agora
