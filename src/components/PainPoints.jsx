@@ -61,13 +61,13 @@ const PainPoints = () => {
                 </span> agora?
               </h2>
 
-              {/* Visual moved from right column */}
+              {/* Mobile Visual (visible on mobile only) */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.9, rotate: -2 }}
                 whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
                 viewport={{ once: true, amount: 0.2 }}
                 transition={{ duration: 0.8, type: "spring" }}
-                className="relative aspect-4/5 md:aspect-auto md:h-[500px] w-full max-w-md mx-auto rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] border border-white/10 mb-10"
+                className="relative aspect-4/5 md:aspect-auto md:h-[500px] w-full max-w-md mx-auto rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] border border-white/10 mb-10 lg:hidden"
               >
                 <img 
                   src={compromisedPhone} 
@@ -194,10 +194,51 @@ const PainPoints = () => {
             </motion.div>
           </div>
 
-          {/* The right column is now empty as the visual element was moved to the left column. */}
-          <div className="w-full lg:w-1/2">
-            {/* This column is intentionally left empty as per user's request to move the visual element.
-                The layout will adjust naturally. */}
+          {/* Right: Visual on Desktop */}
+          <div className="hidden lg:block w-full lg:w-1/2 sticky top-32">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9, rotate: 2 }}
+              whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.8, type: "spring" }}
+              className="relative md:h-[600px] w-full max-w-md mx-auto rounded-[3rem] overflow-hidden shadow-[0_0_80px_rgba(0,0,0,0.6)] border-2 border-white/20"
+            >
+              <img 
+                src={compromisedPhone} 
+                alt="Account Compromised" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-linear-to-t from-brand-navy via-transparent to-transparent opacity-60"></div>
+              
+              {/* Floating Alert Card on Desktop */}
+              <motion.div 
+                initial={{ x: 20, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ delay: 0.5, duration: 0.8 }}
+                className="absolute bottom-12 left-8 right-8 bg-white/95 backdrop-blur-xl p-8 rounded-3xl shadow-[0_20px_40px_rgba(0,0,0,0.4)] border-t-8 border-red-500"
+              >
+                 <div className="flex items-center gap-4 mb-4">
+                    <div className="w-14 h-14 bg-red-100 rounded-full flex items-center justify-center">
+                       <CircleX className="w-8 h-8 text-red-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-red-600 font-black text-xl">Conta Comprometida</h3>
+                      <p className="text-slate-500 text-xs font-bold uppercase tracking-widest">Acesso Negado</p>
+                    </div>
+                 </div>
+                 <p className="text-slate-600 text-base mb-6 font-medium">Seu acesso original foi bloqueado. Alguém está usando sua identidade neste momento.</p>
+                 <div className="w-full bg-slate-900 text-white font-bold py-4 rounded-xl text-sm text-center shadow-lg">
+                    Recuperar Acesso IMEDIATAMENTE
+                 </div>
+                 <p className="text-[11px] text-red-500 mt-4 font-bold text-center animate-pulse">
+                   ALERTA: Tempo médio de resposta do suporte &gt; 40 dias.
+                 </p>
+              </motion.div>
+
+              {/* Decorative elements for desktop mockup */}
+              <div className="absolute -top-10 -right-10 w-40 h-40 bg-red-500/20 rounded-full blur-3xl -z-10"></div>
+              <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-brand-gold/20 rounded-full blur-3xl -z-10"></div>
+            </motion.div>
           </div>
 
         </div>
