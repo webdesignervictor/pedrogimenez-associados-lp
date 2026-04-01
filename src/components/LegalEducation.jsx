@@ -6,23 +6,23 @@ const LegalEducation = () => {
   const laws = [
     {
       icon: BookOpen,
-      title: "É uma relação de consumo",
-      desc: "Você é usuário da plataforma e tem a proteção do Código de Defesa do Consumidor (CDC)."
+      title: "Relação de Consumo",
+      desc: "Você é usuário da plataforma e tem a proteção do Código de Defesa do Consumidor contra abusos."
     },
     {
       icon: ShieldCheck,
-      title: "Falha de Segurança",
-      desc: "Se a sua conta foi invadida e o hacker mudou seus dados mesmo você tendo proteção, a plataforma falhou em garantir a segurança dos seus dados."
+      title: "Falha na Prestação do Serviço",
+      desc: "A plataforma é obrigada a garantir a segurança da sua conta. Se ela foi invadida, houve uma falha no serviço."
     },
     {
       icon: Scale,
-      title: "Direito a Indenização",
-      desc: "Pela falha na prestação do serviço e os transtornos gerados pela invasão, você tem direito a buscar indenização por Danos Morais na Justiça."
+      title: "Direito à Indenização",
+      desc: "Além de recuperar o acesso, você pode ser indenizado pelos danos morais e materiais causados pela invasão."
     },
     {
       icon: FileCheck,
-      title: "Jurisprudência Favorável",
-      desc: "Juízes em todo o Brasil já estão condenando plataformas (Meta e outras) a devolverem contas de usuários em menos de 48h com aplicação de multas diárias pesadas."
+      title: "Decisões Favoráveis",
+      desc: "A justiça brasileira tem um histórico sólido de devolver contas e punir as plataformas com multas."
     }
   ];
 
@@ -46,16 +46,16 @@ const LegalEducation = () => {
                 <Scale className="w-8 h-8 text-brand-gold" />
               </div>
               <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight text-white">
-                Você sabia que a <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-cyan-200">plataforma tem a obrigação</span> de proteger sua conta?
+                Você tem direitos — e a <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-cyan-200">plataforma pode ser responsabilizada</span>
               </h2>
               <p className="text-slate-300 text-lg mb-8 font-light">
-                O suporte do Instagram/WhatsApp dirá que você precisa enviar um vídeo de selfie, e se não funcionar, dirão que não podem fazer nada. <strong>A Justiça diz o contrário e pune esse tipo de negligência.</strong>
+                O suporte oficial muitas vezes não resolve. A lei diz que a plataforma deve garantir a segurança e o acesso do usuário, punindo negligências.
               </p>
               
               <div className="bg-brand-dark/50 p-6 rounded-2xl border border-white/10 backdrop-blur-sm">
-                <p className="text-brand-gold font-bold mb-2 text-xl block">"A responsabilidade é objetiva."</p>
+                <p className="text-brand-gold font-bold mb-2 text-xl block">Recupere o que é seu.</p>
                 <p className="text-sm text-slate-400">
-                   Significa que, uma vez provado o hackeamento, a plataforma responde pelos danos gerados, independentemente de culpa na verificação.
+                   Uma vez provada a falha de segurança, a plataforma responde pelos danos gerados ao usuário.
                 </p>
               </div>
             </motion.div>

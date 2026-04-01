@@ -6,23 +6,23 @@ const Timeline = () => {
   const steps = [
     {
       icon: Search,
-      title: "Análise do Caso (100% Gratuita)",
-      desc: "Você entra em contato pelo WhatsApp. Nossa equipe avalia a situação da sua conta e as provas disponíveis sem custo algum."
+      title: "Passo 1: Análise do Caso (Gratuita)",
+      desc: "Nossa equipe avalia seu caso sem custo inicial para identificar a viabilidade da recuperação e o direito a indenização."
     },
     {
       icon: Send,
-      title: "Notificação Extrajudicial",
-      desc: "Tentamos uma resolução amigável enviando uma notificação formal e com prazo legal diretamente ao Meta/Plataforma."
+      title: "Passo 2: Notificação formal à plataforma",
+      desc: "Emitimos uma notificação formal e jurídica direto para a plataforma, exigindo o restabelecimento imediato do seu acesso."
     },
     {
       icon: Scale,
-      title: "Ação Judicial de Urgência",
-      desc: "Se a plataforma ignorar a notificação, entramos com um pedido de Liminar (Tutela de Urgência) e de Indenização por Danos Morais."
+      title: "Passo 3: Ação judicial com pedido de urgência",
+      desc: "Caso a plataforma não responda, acionamos a justiça com pedido de liminar para que seu acesso seja devolvido em poucos dias."
     },
     {
       icon: Unlock,
-      title: "Conta Recuperada & Indenização",
-      desc: "Você recebe seu acesso de volta por determinação judicial e a plataforma pode ser condenada a indenizar seus prejuízos."
+      title: "Passo 4: Recuperação da conta e possível indenização",
+      desc: "Garantimos o seu acesso de volta e buscamos a reparação financeira pelos danos morais e materiais sofridos."
     }
   ];
 
@@ -38,7 +38,7 @@ const Timeline = () => {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-5xl font-extrabold text-brand-navy mb-6 tracking-tight"
           >
-            Como vamos recuperar a <span className="text-brand-gold">sua conta</span>
+            Como funciona a <span className="text-brand-gold">recuperação da sua conta</span>
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ const Timeline = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-lg text-slate-600 font-medium"
           >
-            Esqueça o suporte automatizado que não leva a lugar nenhum. Atuamos com força legal para obrigar a devolução.
+            Atuamos de forma estratégica para recuperar seu acesso e garantir seus direitos.
           </motion.p>
         </div>
 

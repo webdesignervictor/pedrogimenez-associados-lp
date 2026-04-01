@@ -7,19 +7,19 @@ const SocialProof = () => {
     {
       initial: "R",
       name: "Rafael M.",
-      status: "Conta Recuperada em 48h",
+      status: "✔ Conta recuperada",
       review: "Estava desesperado porque minha conta da loja foi hackeada e estavam pedindo dinheiro pros meus clientes. A equipe foi impecável, entraram com a liminar e devolveram meu acesso super rápido."
     },
     {
       initial: "J",
       name: "Juliana T.",
-      status: "WhatsApp Clonado",
+      status: "✔ Decisão judicial favorável",
       review: "Trabalho excelente. Explicaram tudo com muita clareza desde o primeiro contato no WhatsApp. Recomendo muito para quem não sabe o que fazer nessa situação terrível."
     },
     {
       initial: "M",
       name: "Marcos C.",
-      status: "Indenização Recebida",
+      status: "✔ Indenização recebida",
       review: "Além de recuperar a conta, me orientaram sobre o processo de danos morais, o que achei muito honesto da parte deles. Atendimento 100% transparente."
     }
   ];
@@ -43,10 +43,10 @@ const SocialProof = () => {
                 <span>Casos Reais</span>
               </div>
               <h2 className="text-3xl md:text-5xl font-extrabold text-brand-navy mb-6 tracking-tight leading-tight">
-                Resultados que falam por <span className="text-brand-gold">nós</span>.
+                Clientes que já <span className="text-brand-gold">recuperaram suas contas</span>
               </h2>
               <p className="text-lg text-slate-600 mb-8 max-w-md">
-                Temos orgulho das nossas avaliações porque elas representam negócios salvos, angústias interrompidas e justiça sendo feita.
+                Casos reais de pessoas que recuperaram suas contas e tiveram seus direitos reconhecidos.
               </p>
               
               <div className="flex items-center gap-4 p-5 bg-[#FAF8F5] rounded-2xl border border-slate-200 shadow-sm max-w-sm">

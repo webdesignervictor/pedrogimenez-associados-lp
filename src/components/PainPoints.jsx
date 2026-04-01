@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { CircleAlert, CircleCheck, CircleX, ChevronLeft, ChevronRight } from 'lucide-react';
-import compromisedPhone from '../assets/compromised-phone.png';
+import compromisedPhone from '../assets/painpoints-simulation.png';
 import securityBg from '../assets/security-bg.png';
 
 const PainPoints = () => {
@@ -18,20 +18,20 @@ const PainPoints = () => {
 
   const points = [
     {
-      title: "Golpes contra amigos",
-      text: "Estão vendendo produtos falsos ou pedindo PIX para sua família e amigos em seu nome."
+      title: "Estão se passando por você",
+      text: "Usam sua identidade para aplicar golpes em amigos, clientes e familiares, destruindo sua reputação."
     },
     {
-      title: "Perda de anos de trabalho",
-      text: "Sua conta é para negócios e você perdeu todos os seus clientes, seguidores e portfólio."
+      title: "Perda de conta profissional",
+      text: "Anos de trabalho, milhares de seguidores e contatos comerciais perdidos em um piscar de olhos."
     },
     {
-      title: "Suporte inútil da plataforma",
-      text: "O reconhecimento facial não funciona, os emails automáticos não ajudam e não há atendimento humano."
+      title: "Suporte automático inútil",
+      text: "Respostas padronizadas que não resolvem nada, enquanto o hacker continua agindo em sua conta."
     },
     {
-      title: "Angústia e ansiedade",
-      text: "Você se sente impotente vendo sua imagem sendo destruída sem poder fazer absolutamente nada."
+      title: "Angústia e medo",
+      text: "O sentimento de impotência e o medo de prejuízos financeiros e morais cada vez maiores."
     }
   ];
 
@@ -55,10 +55,10 @@ const PainPoints = () => {
               transition={{ duration: 0.5 }}
             >
               <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">
-                Isso está <span className="text-red-500 relative inline-block">
-                  acontecendo com você
+                Você está passando por <span className="text-red-500 relative inline-block">
+                  alguma dessas situações?
                   <span className="absolute bottom-0 left-0 w-full h-[3px] bg-red-500/30 blur-[1px]"></span>
-                </span> agora?
+                </span>
               </h2>
 
               {/* Mobile Visual (visible on mobile only) */}
@@ -101,7 +101,7 @@ const PainPoints = () => {
               </motion.div>
 
               <p className="text-lg text-slate-300 mb-8 max-w-lg">
-                Se você se identifica com qualquer uma destas situações, você está sendo vítima de uma falha de segurança que é responsabilidade direta da rede social.
+                Se você se identifica com alguma dessas situações, pode estar diante de uma falha da plataforma — e isso pode gerar direito à recuperação da conta e até indenização.
               </p>
             </motion.div>
 
@@ -172,7 +172,7 @@ const PainPoints = () => {
                           Existe Solução
                        </h4>
                        <p className="text-slate-300 text-base max-w-md leading-relaxed">
-                         A lei obriga as plataformas a devolverem seu acesso e indenizarem seus prejuízos por falha na prestação do serviço.
+                         A Justiça tem reconhecido a responsabilidade das plataformas e determinado a recuperação de contas e o pagamento de indenização.
                        </p>
                      </div>
                    </div>
@@ -182,7 +182,7 @@ const PainPoints = () => {
                        href="https://wa.me/5511999999999" 
                        className="inline-flex items-center justify-center gap-3 bg-brand-cta text-white font-bold text-lg py-4 px-10 rounded-xl btn-premium-shimmer shadow-premium w-full md:w-auto text-center"
                      >
-                       Avaliar meu caso gratuitamente
+                       Analisar meu caso agora
                      </a>
                      <div className="flex items-center justify-center gap-2 mt-3 text-brand-gold text-[10px] font-bold uppercase tracking-widest opacity-70">
                         <span className="w-1.5 h-1.5 rounded-full bg-brand-gold animate-pulse"></span>

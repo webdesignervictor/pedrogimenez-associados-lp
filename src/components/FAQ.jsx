@@ -7,24 +7,32 @@ const FAQ = () => {
 
   const faqs = [
     {
-      q: "Preciso pagar alguma coisa agora para avaliar meu caso?",
-      a: "Não. A análise inicial do seu caso é 100% gratuita. Escutamos sua situação, avaliamos os prints e informamos se o seu caso tem viabilidade jurídica para recuperação e indenização."
+      q: "Preciso pagar para analisar meu caso?",
+      a: "Não. A análise inicial é 100% gratuita. Avaliamos a viabilidade jurídica do seu caso antes de qualquer compromisso."
     },
     {
-      q: "Em quanto tempo recupero minha conta?",
-      a: "O bloqueio administrativo costuma demorar e muitas vezes não funciona. Já na via judicial, ingressamos com um pedido Liminar. Quando o Juiz aprova (o que ocorre geralmente em dias), a Meta/Plataforma é obrigada a devolver a conta em prazos curtos como 24h ou 48h, sob pena de multa diária pesada."
+      q: "Em quanto tempo posso recuperar minha conta?",
+      a: "Pela via judicial, buscamos uma liminar que obriga a plataforma a devolver o acesso em poucos dias (geralmente 24h a 48h após a decisão), sob pena de multa."
     },
     {
-      q: "Posso perder minha conta para sempre?",
-      a: "Sim. Se os golpistas violarem as diretrizes (o que acontece muito em golpes de PIX), o Instagram pode excluir a conta permanentemente. Por isso, a ação rápida via judicial é a forma mais segura de contornar os robôs do suporte e garantir seu direito."
+      q: "Posso perder minha conta definitivamente?",
+      a: "Sim, se você não agir rápido. Os golpistas podem causar o banimento permanente por violação de termos. A via judicial é o caminho mais seguro para evitar isso."
     },
     {
-      q: "Eu não sou de SP, posso contratar vocês?",
-      a: "Sim. Nossos atendimentos e atuações são 100% online. O sistema judicial hoje é eletrônico (processo digital).  Garantimos eficiência e agilidade para clientes de qualquer lugar do Brasil."
+      q: "Posso contratar mesmo não sendo de SP?",
+      a: "Sim. Atuamos em todo o Brasil de forma 100% digital. O processo é eletrônico e as reuniões ocorrem por vídeo ou WhatsApp."
     },
     {
-      q: "Vou receber Indenização por Danos Morais?",
-      a: "As chances são altas. A invasão configura quebra de segurança do consumidor. Os tribunais brasileiros já pacificaram o entendimento de que a rede social, ao falhar na segurança, deve reparar os danos gerados pela angústia e prejuízo do usuário."
+      q: "Tenho direito à indenização?",
+      a: "Em muitos casos, sim. A falha na segurança da plataforma gera o dever de indenizar pelos danos morais e eventuais prejuízos financeiros (lucros cessantes)."
+    },
+    {
+      q: "Meu caso realmente tem solução?",
+      a: "A grande maioria dos casos de invasão e bloqueio indevido tem solução jurídica, desde que as provas sejam preservadas e a ação seja rápida."
+    },
+    {
+      q: "E se a plataforma disser que não pode fazer nada?",
+      a: "O suporte das redes sociais é limitado por robôs. A justiça tem o poder de obrigar os engenheiros da plataforma a restaurarem seu acesso manualmente."
     }
   ];
 
@@ -40,7 +48,7 @@ const FAQ = () => {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-5xl font-extrabold text-brand-navy mb-6 tracking-tight"
           >
-            Dúvidas Frequentes
+            Dúvidas comuns sobre recuperação de contas
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -49,7 +57,7 @@ const FAQ = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-lg text-slate-600 font-medium"
           >
-            Respostas transparentes sobre o processo de recuperação e seus direitos.
+            Entenda como funciona o processo e quais são seus direitos.
           </motion.p>
         </div>
 
@@ -116,7 +124,7 @@ const FAQ = () => {
             className="inline-flex items-center justify-center gap-3 bg-brand-cta text-white font-bold text-lg py-4 px-10 rounded-xl btn-premium-shimmer shadow-premium group"
           >
             <MessageCircle className="w-5 h-5 text-white group-hover:animate-bounce" />
-            Tirar Dúvida no WhatsApp
+            Falar com especialista no WhatsApp
           </a>
         </motion.div>
 

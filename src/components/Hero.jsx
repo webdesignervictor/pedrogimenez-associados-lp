@@ -56,11 +56,11 @@ const Hero = () => {
         <div className="w-full md:w-3/5 text-center md:text-left">
           <div className="inline-flex items-center gap-2 py-1 px-3 rounded-full bg-red-500/10 border border-red-500/20 text-red-500 font-medium text-sm mb-6">
             <ShieldAlert className="w-4 h-4" />
-            <span>Advocacia Especializada contra Fraudes Digitais</span>
+            <span>Suporte jurídico para contas bloqueadas e invadidas</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight leading-tight mb-6">
-            Sua conta foi bloqueada e <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-cyan-200 animate-shimmer">ninguém resolve?</span>
+            Perdeu o acesso à sua conta e <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-cyan-200 animate-shimmer">a plataforma não resolve?</span>
           </h1>
 
           {/* Mobile Card Visual (Only visible on small screens) */}
@@ -84,7 +84,7 @@ const Hero = () => {
               >
                 <div className="bg-brand-dark rounded-3xl h-[350px] w-full overflow-hidden relative border border-slate-800">
                   <img 
-                    src="/img-card-hero-pedrogimenez.png" 
+                    src="/hero-simulation.png" 
                     alt="Interface de Recuperação de Conta" 
                     className="absolute inset-0 w-full h-full object-cover"
                   />
@@ -119,7 +119,7 @@ const Hero = () => {
           </div>
           
           <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl mx-auto md:mx-0 font-light">
-            Atuamos juridicamente na <strong className="font-semibold text-white">recuperação rápida de contas bloqueadas</strong>. Forçamos as plataformas na justiça a devolverem seu acesso e buscarem indenizações por danos de imagem.
+            Se sua conta foi banida, bloqueada, invadida ou clonada, nossa equipe avalia a situação e orienta os próximos passos para buscar a recuperação do acesso, a segurança dos seus dados e o reconhecimento dos seus direitos diante da plataforma.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
@@ -132,10 +132,20 @@ const Hero = () => {
               <MessageCircle className="w-5 h-5 group-hover:animate-bounce" />
               Solicitar Diagnóstico Gratuito
             </a>
-            <span className="text-sm text-slate-400 font-medium flex items-center gap-1.5 mt-3 sm:mt-0">
-              <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-              Resposta no WhatsApp em 2 min
-            </span>
+            <div className="flex flex-col gap-2 mt-4 sm:mt-0">
+              <span className="text-xs text-slate-400 font-medium flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+                Análise inicial gratuita
+              </span>
+              <span className="text-xs text-slate-400 font-medium flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+                Atendimento 100% online
+              </span>
+              <span className="text-xs text-slate-400 font-medium flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+                Atuação em todo o Brasil
+              </span>
+            </div>
           </div>
         </div>
 
@@ -163,7 +173,7 @@ const Hero = () => {
             >
               <div className="bg-brand-dark rounded-[2rem] h-[500px] w-full overflow-hidden relative border border-slate-800">
                 <img 
-                  src="/img-card-hero-pedrogimenez.png" 
+                  src="/hero-simulation.png" 
                   alt="Interface de Recuperação de Conta" 
                   className="absolute inset-0 w-full h-full object-cover"
                 />

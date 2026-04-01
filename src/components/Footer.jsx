@@ -16,10 +16,10 @@ const Footer = () => {
           </div>
           
           <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">
-            Cada dia sem agir é <br className="hidden md:block"/>mais um golpe no seu nome.
+            Cada dia sem agir pode <br className="hidden md:block"/>aumentar seus prejuízos
           </h2>
           <p className="text-xl text-slate-300 font-light mb-10 max-w-2xl mx-auto">
-            A plataforma não tem pressa. Nós temos. Recupere sua conta, seu prestígio e garanta sua indenização judicial.
+            Enquanto você espera, a situação pode piorar. Atuamos para recuperar sua conta e responsabilizar a plataforma.
           </p>
           
           <a 
@@ -28,11 +28,11 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-brand-cta hover:bg-green-700 text-white font-black text-xl py-5 px-10 rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(22,163,74,0.3)] hover:shadow-[0_0_35px_rgba(22,163,74,0.6)] transform hover:-translate-y-2 w-full sm:w-auto"
           >
-            Falar com a Equipe Pedro Gimenez →
+            Quero recuperar minha conta
           </a>
           <p className="mt-6 text-sm text-slate-400 flex items-center justify-center gap-2">
             <ShieldAlert className="w-4 h-4 text-green-500" />
-            Atendimento sigiloso e análise 100% gratuita.
+            Atendimento sigiloso • Análise gratuita • 100% online
           </p>
         </div>
       </div>
@@ -56,7 +56,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 pe-4">
-               Escritório de advocacia boutique especializado em Direito Digital e Defesa do Consumidor frente a grandes corporações de tecnologia.
+              Suporte jurídico especializado na recuperação de contas bloqueadas, invadidas e banidas, com atuação em todo o Brasil.
             </p>
             <div className="text-slate-500 text-sm font-semibold">
                Atuação 100% Digital / Todo o Brasil
@@ -66,7 +66,7 @@ const Footer = () => {
           <div className="md:col-span-4">
             <h4 className="text-lg font-bold text-white mb-6 flex items-center gap-2">
               <span className="w-2 h-2 bg-brand-gold rounded-full"></span>
-              Acesso Rápido
+              Como podemos te ajudar
             </h4>
             <ul className="space-y-4 text-slate-400">
               <li><a href="#como-funciona" className="hover:text-brand-gold transition-colors">Processo de Recuperação</a></li>
@@ -93,9 +93,12 @@ const Footer = () => {
         {/* Legal Bottom */}
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
           <p>© {new Date().getFullYear()} Pedro Gimenez & Associados. Todos os direitos reservados.</p>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
-            <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
+          <div className="flex flex-col md:flex-row gap-6 items-center">
+            <span className="text-brand-gold font-bold">⚠️ Quanto antes agir, maiores as chances de recuperar sua conta.</span>
+            <div className="flex gap-6">
+              <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
+              <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
+            </div>
           </div>
         </div>
       </div>
