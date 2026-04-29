@@ -23,7 +23,7 @@ const Footer = () => {
           </p>
           
           <a 
-            href="https://wa.me/5511999999999?text=Quero%20recuperar%20minha%20conta."
+            href="https://wa.me/5517991481101?text=Quero%20recuperar%20minha%20conta."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-brand-cta hover:bg-green-700 text-white font-black text-xl py-5 px-10 rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(22,163,74,0.3)] hover:shadow-[0_0_35px_rgba(22,163,74,0.6)] transform hover:-translate-y-2 w-full sm:w-auto"
@@ -82,7 +82,7 @@ const Footer = () => {
             </h4>
             <div className="space-y-4 text-slate-400">
               <p>Email: <a href="mailto:contato@pedrogimenez.adv.br" className="hover:text-brand-gold transition-colors">contato@pedrogimenez.adv.br</a></p>
-              <p>WhatsApp: <span className="text-white font-medium">(11) 99999-9999</span></p>
+              <p>WhatsApp: <span className="text-white font-medium">(17) 99148-1101</span></p>
               <div className="mt-6 pt-6 border-t border-slate-800">
                  <p className="text-sm font-mono text-slate-500">OAB/SP 123.456</p>
               </div>

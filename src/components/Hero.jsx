@@ -2,7 +2,7 @@ import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import { Instagram, ShieldAlert, MessageCircle } from 'lucide-react';
 
 const Hero = () => {
-  const waLink = "https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Dr.%20Pedro.%20Preciso%20de%20ajuda%20para%20recuperar%20minha%20conta.";
+  const waLink = "https://wa.me/5517991481101?text=Ol%C3%A1%2C%20Dr.%20Pedro.%20Preciso%20de%20ajuda%20para%20recuperar%20minha%20conta.";
 
   // 3D Hover Logic
   const x = useMotionValue(0);

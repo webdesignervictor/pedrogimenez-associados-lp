@@ -179,7 +179,7 @@ const PainPoints = () => {
                    
                    <div className="w-full md:w-auto shrink-0">
                      <a 
-                       href="https://wa.me/5511999999999" 
+                       href="https://wa.me/5517991481101?text=Ol%C3%A1%2C%20Dr.%20Pedro.%20Preciso%20de%20ajuda%20para%20recuperar%20minha%20conta." 
                        className="inline-flex items-center justify-center gap-3 bg-brand-cta text-white font-bold text-lg py-4 px-10 rounded-xl btn-premium-shimmer shadow-premium w-full md:w-auto text-center"
                      >
                        Analisar meu caso agora
