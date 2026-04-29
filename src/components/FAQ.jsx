@@ -118,7 +118,7 @@ const FAQ = () => {
             Não tome decisões baseadas em dicas da internet. Fale diretamente com nossa equipe e entenda as reais opções jurídicas para o seu caso específico.
           </p>
           <a 
-            href="https://wa.me/5517991481101?text=Ol%C3%A1%2C%20Dr.%20Pedro.%20Preciso%20de%20ajuda%20para%20recuperar%20minha%20conta." 
+            href="https://wa.me/5517991481101?text=Ol%C3%A1%20Dr%20Pedro%2C%20preciso%20de%20ajuda%20para%20recuperar%20minha%20conta" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-brand-cta text-white font-bold text-lg py-4 px-10 rounded-xl btn-premium-shimmer shadow-premium group"
