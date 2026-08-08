@@ -46,7 +46,7 @@ const LegalEducation = () => {
                 <Scale className="w-8 h-8 text-brand-gold" />
               </div>
               <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight text-white">
-                Você tem direitos — e a <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-cyan-200">plataforma pode ser responsabilizada</span>
+                Você tem direitos — e a <span className="text-transparent bg-clip-text bg-linear-to-r from-brand-gold to-yellow-200">plataforma pode ser responsabilizada</span>
               </h2>
               <p className="text-slate-300 text-lg mb-8 font-light">
                 O suporte oficial muitas vezes não resolve. A lei diz que a plataforma deve garantir a segurança e o acesso do usuário, punindo negligências.

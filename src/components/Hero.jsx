@@ -46,7 +46,7 @@ const Hero = () => {
           <source src="/videos/video-hero-optimized.mp4" type="video/mp4" />
         </video>
         <div className="absolute -top-40 -right-40 w-96 h-96 bg-brand-gold/10 rounded-full blur-3xl mix-blend-screen"></div>
-        <div className="absolute top-1/2 -left-20 w-72 h-72 bg-cyan-500/10 rounded-full blur-3xl mix-blend-screen"></div>
+        <div className="absolute top-1/2 -left-20 w-72 h-72 bg-brand-gold/10 rounded-full blur-3xl mix-blend-screen"></div>
         <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-brand-dark to-transparent"></div>
       </div>
 
@@ -60,7 +60,7 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-tight leading-tight mb-6">
-            Perdeu o acesso à sua conta e <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-cyan-200 animate-shimmer">a plataforma não resolve?</span>
+            Perdeu o acesso à sua conta e <span className="text-transparent bg-clip-text bg-linear-to-r from-brand-gold to-yellow-200 animate-shimmer">a plataforma não resolve?</span>
           </h1>
 
           {/* Mobile Card Visual (Only visible on small screens) */}
